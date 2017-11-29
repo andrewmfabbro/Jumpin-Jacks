@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- *************************************************************** -->
+<!-- HEAD Section -->
+
+<head>
+
+    <title>Jumpin' Jack's Drive In</title>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Font Awesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Responsive Extensions CSS -->
+    <link rel="stylesheet" href="css/extensions.css">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- My Project CSS -->
+    <link rel="stylesheet" href="css/Jumping_Jacks.css">
+</head>
+
+<!-- *************************************************************** -->
+<!-- BODY Section -->
+
+<body id="topPage" data-spy="scroll" data-target=".navbar" data-offset="0">
+
+    <!-- *************************************************************** -->
+    <!-- Responsive Navigation  -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+        <!-- add header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle btn-custom" data-toggle="collapse" data-target="#topNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html">JUMPIN' JACK'S</a>
+        </div>
+
+        <!-- menu items -->
+        <div class="collapse navbar-collapse" id="topNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- social media icons -->
+            <ul class="nav navbar-nav navbar-right social hidden-sm">
+                <li><a href="https://www.facebook.com/JumpinJacksDriveIn/?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/106433901583503472915" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                <!-- not using a container cluge -->
+                &nbsp;&nbsp;
+            </ul>
+            <!-- ^^ social media icons -->
+        </div>
+        <!-- ^^collapse -->
+
+    </nav>
+    <!-- ^^nav -->
+
+    <!-- *************************************************************** -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="img-responsive center-block" src="images/jjfood.jpg" alt="Jumpin' Jack's">
+
+
+                <!-- Responsive Navigation  -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                <nav class="inverted-navbar navbar-default " role="navigation">
+
+                    <!-- add header -->
+                    <div class="inverted-navbar-header">
+                        <button type="button" class="navbar-toggle btn-custom" data-toggle="collapse" data-target="#Navbartwo">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- menu items -->
+                    <div class="collapse navbar-collapse" id="Navbartwo">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="menu.html">LUNCH & DINNER</a></li>
+                            <li><a href="dessert.html">DESSERT</a></li>
+                            <li><a href="download.html">DOWNLOAD MENUS</a></li>
+                        </ul>
+                    </div>
+                    <!-- ^^collapse -->
+
+                </nav>
+                <!-- ^^nav -->
+            </div>
+        </div>
+    </div>
+
+
+    <section class="bg_yellow">
+        <div class="container-fluid">
+
+            <!-- *************************************************************** -->
+            <!-- Left Nav Controls -->
+            <!-- Panel Group -->
+            <div id="menuAccordion">
+                <div class="panel-group " id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-3 pad_left">
+
+                            <!-- Panel 1 -->
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h3 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Soft Ice Cream <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                            </div>
+                            <!-- Panel 2 -->
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Frozen Yogurt <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 3 -->
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Dole Soft Serve <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 4 -->
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Milkshakes <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 5 -->
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Floats <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 6 -->
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Slushies <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 7 -->
+                            <div class="panel-heading" role="tab" id="headingSeven">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Freezes <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 8 -->
+                            <div class="panel-heading" role="tab" id="headingEight">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Sundaes <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 9 -->
+                            <div class="panel-heading" role="tab" id="headingNine">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Banana Splits <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                            <!-- Panel 10 -->
+                            <div class="panel-heading" role="tab" id="headingTen">
+                                <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Other Treats <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                            </div>
+                        </div>
+
+                        <!-- Left Nav Content -->
+                        <div class="col-xs-12 col-sm-8 col-md-9">
+
+                            <!-- Body 1 starts-->
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Soft Ice Cream</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <!-- Left col -->
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p> Baby $1.50
+                                                        <br> Small $2.00
+                                                        <br> Medium $2.50
+                                                        <br> Large $3.00
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p>Our soft ice cream is gluten free and can be served in a cup for those with sensitivities or allergies.</p>
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Left col -->
+                                        <!-- Middle col -->
+                                        <div class=" col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive menu-pics center-block" src="images/dessert/vanillachocolatesoftserve.jpg" alt="Soft Serve">
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h4>Vanilla or Chocolate</h4>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p> Served in a cake cone or cup.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Middle col -->
+                                        <!-- Right col -->
+                                        <div class=" col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive menu-pics center-block" src="images/dessert/twist.jpg" alt="Soft Serve Twist">
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h4>Vanilla & Chocolate Twist</h4>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p> Served in a cake cone or cup.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Right col -->
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 1 ends -->
+
+                            <!-- Body 2 starts-->
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Frozen Yogurt</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing & Flavors</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        Baby $2.00
+                                                        <br> Small $2.50
+                                                        <br> Medium $3.00
+                                                        <br> Large $3.50
+
+                                                        <br>
+                                                        <br> Vanilla
+                                                        <br> Chocolate
+                                                        <br> Vanilla & Chocolate Twist
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p> We serve Frostline brand frozen yogurt, which is gluten and lactose free, low fat, and has no trans fat.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--^^col -->
+                                        <div class=" col-sm-8">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive center-block" src="images/dessert/frozenyogurt.jpg" alt="Frozen Yogurt">
+                                                </div>
+                                                <div class="panel-body">
+                                                </div>
+                                                <div class="panel-footer">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 2 ends -->
+
+                            <!-- Body 3 starts-->
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Dole Soft Serve</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing & Flavors</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        Baby $2.00
+                                                        <br> Small $2.50
+                                                        <br> Medium $3.00
+                                                        <br> Large $3.50
+
+                                                        <br>
+                                                        <br> Strawberry, Pineapple, Mango, Lemon, Orange, and Raspberry
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p>Dole soft serve is dairy, gluten, lactose, and fat free. This low calorie treat contains no artificial flavors.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--^^col -->
+                                        <div class=" col-sm-8">
+                                            <div class="panel">
+                                                <img class="img-responsive center-block" src="images/dessert/dolewhip.png" alt="Dole Soft Serve">
+                                            </div>
+                                            <div class="panel-body">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--^^row -->
+                            </div>
+                            <!-- Body 3 ends -->
+
+                            <!-- Body 4 starts-->
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Milkshakes</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <!-- Left col -->
+                                    <div class="row">
+                                        <div class=" col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>Medium $3.25
+                                                        <br> Large $3.50
+                                                        <br>
+                                                        <br> Malted $0.50 extra
+                                                    </p>
+                                                    <p>
+                                                        A limited variety of flavors are available at the charcoal pit; more are served at the twin freeze building.
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Left col -->
+                                        <!-- Middle col -->
+                                        <div class=" col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Flavors at the Charcoal Pit</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>Vanilla
+                                                        <br> Chocolate
+                                                        <br> Strawberry
+                                                        <br> Pistachio</p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Middle col -->
+                                        <!-- Right col -->
+                                        <div class=" col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Additional Flavors at the Twin Freeze</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>Coffee
+                                                        <br> Black Raspberry
+                                                        <br> Blueberry
+                                                        <br> Cherry
+                                                        <br> Orange Pineapple</p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Right col -->
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 4 ends -->
+
+                            <!-- Body 5 starts-->
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Floats</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing & Flavors</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        Enjoy your preference of soft ice cream or frozen yogurt flavor in the form of a float.
+                                                        <br>
+                                                        <br> Soft Ice Cream Float
+                                                        <br> Medium $2.50
+                                                        <br> Large $2.75
+
+                                                        <br>
+                                                        <br> Frozen Yogurt Float
+                                                        <br> Medium $3.00
+                                                        <br> Large $3.25
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--^^col -->
+                                        <div class=" col-sm-8">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive center-block" src="images/dessert/float.jpg" alt="Ice Cream Float">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 5 ends -->
+
+                            <!-- Body 6 starts-->
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Slushies</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing & Flavors</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        Small $1.75
+                                                        <br> Medium $2.25
+                                                        <br> Large $2.75
+
+                                                        <br>
+                                                        <br> Lemon-Lime
+                                                        <br> Watermelon
+                                                        <br> Grape
+                                                        <br> Strawberry
+                                                        <br> Cherry
+                                                        <br> Blue Raspberry
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--^^col -->
+                                        <div class=" col-sm-8">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive center-block" src="images/dessert/slushpuppie.jpg" alt="Slush Puppie">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 6 ends -->
+
+                            <!-- Body 7 starts-->
+                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Freezes</h2>
+                                            <img class="img-responsive center-block" src="images/dessert/freezesflavors.png" alt="Freezes Flavors">
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing & Flavors</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        These sweet deserts blend your choice of ice cream with some of your favorite candies.
+                                                        <br>
+                                                        <br> Soft Ice Cream $4.50
+                                                        <br> Frozen Yogurt & Dole Soft Serve for an additional $0.50
+                                                        <br>
+                                                        <br> Snickers
+                                                        <br> M & M's
+                                                        <br> Reese's Pieces
+                                                        <br> Butterfinger
+                                                        <br> Heath Bar
+                                                        <br> Kit Kat
+                                                        <br> Andes Candies
+                                                        <br> Peanut Butter Cup
+                                                        <br> Brownie Bites
+                                                        <br> Cookies
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--^^col -->
+                                        <div class=" col-sm-8">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive center-block" src="images/dessert/freezes.jpg" alt="Freezes">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 7 ends -->
+
+                            <!-- Body 8 starts-->
+                            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Sundaes</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        Ice Cream $4.50
+                                                        <br> Frozen Yogurt $5.00
+                                                        <br> Dole Soft Serve $5.00
+                                                    </p>
+
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p>
+                                                        Create your own sweet treat by mixing together your favorite flavors of ice cream and adding all kinds of toppings from fresh fruit to sprinkles to chocolate sauce.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--^^col -->
+                                        <div class=" col-sm-8">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive center-block" src="images/dessert/sundae.jpg" alt="Sundae">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 8 ends -->
+
+                            <!-- Body 9 starts-->
+                            <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Banana Splits</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <h4>Pricing</h4>
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p>
+                                                        Ice Cream $5.00
+                                                        <br> Frozen Yogurt $5.50
+                                                        <br> Dole Soft Serve $5.50
+                                                    </p>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p>
+                                                        Order a banana split to share! Pick out your favorite flavors of ice cream and don't forget the whipped cream!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--^^col -->
+                                        <div class=" col-sm-8">
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive center-block" src="images/dessert/bananasplit.jpg" alt="Banana Split">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 9 ends -->
+
+                            <!-- Body 10 starts-->
+                            <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                                <div class="panel-body">
+                                    <!-- content row -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h2 class="bg_red padbottom">Other Treats</h2>
+                                        </div>
+                                        <!--^^col -->
+                                    </div>
+                                    <!--^^row -->
+                                    <div class="row">
+                                        <!-- Left col -->
+                                        <div class="col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive menu-pics center-block" src="images/dessert/popcorn.jpg" alt="Popcorn">
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h4>Salty</h4>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p> Fresh Popcorn $1.75
+                                                        <br> Flavored Popcorn $2.25
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Left col -->
+                                        <!-- Middle col -->
+                                        <div class=" col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive menu-pics center-block" src="images/dessert/pretzel.jpg" alt="Soft Pretzel">
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h4>Salty</h4>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p> Soft Pretzel with Cheese $3.00
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Middle col -->
+                                        <!-- Right col -->
+                                        <div class=" col-xs-12 col-sm-4">
+                                            <!-- panel -->
+                                            <div class="panel">
+                                                <div class="panel-heading">
+                                                    <img class="img-responsive menu-pics center-block" src="images/dessert/cottoncandy.jpg" alt="Cotton Candy">
+                                                </div>
+                                                <div class="panel-body">
+                                                    <h4>Sweet</h4>
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <p> Cotton Candy $2.00
+                                                        <br> Flavors: Bubble Gum and Boo Blue
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- ^^panel -->
+                                        </div>
+                                        <!-- ^^Right col -->
+                                    </div>
+                                    <!--^^row -->
+                                </div>
+                            </div>
+                            <!-- Body 10 ends -->
+
+                        </div>
+                        <!-- Left Nav Content col ends -->
+                    </div>
+                    <!--^^row -->
+                </div>
+                <!--^^panel group -->
+            </div>
+            <!--^^menu accordian group -->
+
+        </div>
+    </section>
+
+
+
+    <!-- *************************************************************** -->
+    <!-- Footer Section -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <footer class="text-center footer-custom">
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="bg_blue">
+                    <br>March 30 to September 1
+                    <br> Open Daily: 11 am - 9:30 pm
+                    <br> Water Ski Show every Tuesday @ 6
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#topPage" title="To Top">
+                    <img class="img-responsive" src="images/JJLogoFooter.png" alt="Jumpin' Jack's Logo">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <p class="bg_blue">
+                    <br><a href="https://www.facebook.com/JumpinJacksDriveIn/?ref=br_rs" target="_blank"><i class="fa fa-facebook white"></i></a> <a class="white" href="https://www.facebook.com/JumpinJacksDriveIn/?ref=br_rs" target="_blank">Follow us on Facebook</a>
+
+                    <br><i class="fa fa-phone white fa-lg" aria-hidden="true"></i> 518-393-6101
+
+                    <br> <i class="fa fa-map-marker white fa-lg" aria-hidden="true"></i> 5 Schonowee Ave Scotia, NY 12302</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ^^ Footer Section -->
+
+
+
+    <!-- *************************************************************** -->
+
+
+
+    <!-- *************************************************************** -->
+    <!-- jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Responsive Extensions CSS -->
+    <script src="js/extensions.js"></script>
+    <!-- My Project JS -->
+    <!-- *************************************************************** -->
+
+</body>
+
+</html>

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- *************************************************************** -->
+<!-- HEAD Section -->
+
+<head>
+
+    <title>Jumpin' Jack's Drive In</title>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Font Awesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Responsive Extensions CSS -->
+    <link rel="stylesheet" href="css/extensions.css">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- My Project CSS -->
+    <link rel="stylesheet" href="css/Jumping_Jacks.css">
+</head>
+
+<!-- *************************************************************** -->
+<!-- BODY Section -->
+
+<body id="topPage" data-spy="scroll" data-target=".navbar" data-offset="0">
+
+    <!-- *************************************************************** -->
+    <!-- Responsive Navigation  -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+        <!-- add header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle btn-custom" data-toggle="collapse" data-target="#topNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html">JUMPIN' JACK'S</a>
+        </div>
+
+        <!-- menu items -->
+        <div class="collapse navbar-collapse" id="topNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- social media icons -->
+            <ul class="nav navbar-nav navbar-right social hidden-sm">
+                <li><a href="https://www.facebook.com/JumpinJacksDriveIn/?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://plus.google.com/u/0/106433901583503472915" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                <!-- not using a container cluge -->
+                &nbsp;&nbsp;
+            </ul>
+            <!-- ^^ social media icons -->
+        </div>
+        <!-- ^^collapse -->
+
+    </nav>
+    <!-- ^^nav -->
+
+    <!-- *************************************************************** -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="img-responsive center-block" src="images/jjfood.jpg" alt="Jumpin' Jack's">
+
+
+                <!-- Responsive Navigation  -->
+                <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                <nav class="inverted-navbar navbar-default " role="navigation">
+
+                    <!-- add header -->
+                    <div class="inverted-navbar-header">
+                        <button type="button" class="navbar-toggle btn-custom" data-toggle="collapse" data-target="#Navbartwo">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- menu items -->
+                    <div class="collapse navbar-collapse" id="Navbartwo">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="menu.html">LUNCH & DINNER</a></li>
+                            <li><a href="dessert.html">DESSERT</a></li>
+                            <li><a href="download.html">DOWNLOAD MENUS</a></li>
+                        </ul>
+                    </div>
+                    <!-- ^^collapse -->
+
+                </nav>
+                <!-- ^^nav -->
+            </div>
+        </div>
+    </div>
+
+
+    <section class="bg_yellow">
+        <div class="container-fluid">
+
+            <!-- *************************************************************** -->
+            <!-- Left Nav Controls -->
+            <!-- Panel Group -->
+            <div id="menuAccordion">
+                <div class="panel-group " id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="col-xs-12 col-sm-4 col-md-3 pad_left">
+
+                        <!-- Panel 1 -->
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h3 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Sandwiches <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        </div>
+                        <!-- Panel 2 -->
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Off The Grill <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                        </div>
+                        <!-- Panel 3 -->
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Sides <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                        </div>
+                        <!-- Panel 4 -->
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Dinners <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                        </div>
+                        <!-- Panel 5 -->
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Take Home <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                        </div>
+                        <!-- Panel 6 -->
+                        <div class="panel-heading" role="tab" id="headingSix">
+                            <h3 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Beverages <i class="fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                      </h3>
+                        </div>
+
+                    </div>
+                    <!-- Left Nav Content -->
+                    <div class="col-xs-12 col-sm-8 col-md-9">
+
+                        <!-- Body 1 starts-->
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <!-- content row -->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 class="bg_red padbottom">Sandwiches</h2>
+                                        <p>
+                                            These summertime favorites are breaded and fried, served on a bun and ready to be topped with many condiments.
+                                        </p>
+                                    </div>
+                                    <!--^^col -->
+                                </div>
+                                <!--^^row -->
+                                <div class="row">
+                                    <!-- Left col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/fishfry.jpg" alt="Fish Fry">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Fish Fry</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> A best selling sandwich with a hearty portion of fish fry served on a roll. Great with onion rings or fries.
+                                                </p>
+                                                <p class="align-right">$4.50</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Left col -->
+                                    <!-- Middle col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/clamroll.jpg" alt="Clam Fry">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Clam Fry</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> A battered and fried clam roll sandwich that will make you feel like you're on the beach in New England.
+                                                </p>
+                                                <p class="align-right">$4.50</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Middle col -->
+                                    <!-- Right col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/chickentender.JPG" alt="Chicken Tender Sandwich">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Chicken Tender</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> The very popular chicken tender sandwiched by a bun. A perfect meal for kids or picky eaters.
+                                                </p>
+                                                <p class="align-right">$4.75</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Right col -->
+                                </div>
+                                <!--^^row -->
+                            </div>
+                        </div>
+                        <!-- Body 1 ends -->
+
+                        <!-- Body 2 starts-->
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <!-- content row -->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 class="bg_red padbottom">Off the Grill</h2>
+
+                                        <p>
+                                            Enjoy burgers and many more right off the grill. The great variety will be sure to please any customer. </p>
+                                    </div>
+                                    <!--^^col -->
+                                </div>
+                                <!--^^row -->
+                                <div class="row">
+                                    <!-- Left col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/jackburger.jpg" alt="Jackburger">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Jackburger</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> Our famous specialty: a cheeseburger layer, bun, and burger topped with cole slaw all sandwiched within a bun.
+                                                </p>
+                                                <p class="align-right">$6.00</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Left col -->
+                                    <!-- Middle col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/cheeseburger.jpg" alt="Chesseburger">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Cheeseburger</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> A delicious burger cooked to perfection on the grill topped with cheddar cheese.
+                                                </p>
+                                                <p class="align-right">$3.25</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Middle col -->
+                                    <!-- Right col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/hamburger.png" alt="Hamburger">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Hamburger</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> A summertime favorite, the juicy hamburger is the simple, yet perfect meal off the grill.
+                                                </p>
+                                                <p class="align-right">$3.00</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Right col -->
+                                </div>
+                                <!-- ^^row 1 -->
+
+
+                                <!-- ROW 2 -->
+                                <!-- Left col -->
+                                <div class="row">
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/veggieburger.jpg" alt="Veggie Burger">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Veggie Burger</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> A great option for vegetarians. Load it up with many toppings and your favorite condiments.
+                                                </p>
+                                                <p class="align-right">$3.75</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Left col -->
+                                    <!-- Middle col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/hotdog.jpg" alt="Hot Dog">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Hot Dog</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> Dress up your hot dog however you'd like with our array of toppings or stick with the classic condiments.
+                                                </p>
+                                                <p class="align-right">$2.25</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Middle col -->
+                                    <!-- Right col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/grilledchickenbreast.jpg" alt="Grilled Chicken Breast">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Grilled Chicken Breast</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> Enjoy some delicious chicken off the grill served with crisp lettuce and juciy tomatoes.
+                                                </p>
+                                                <p class="align-right">$4.50</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Right col -->
+                                </div>
+                                <!-- ^^row -->
+
+                                <!-- ROW 3 -->
+                                <!-- Left col -->
+                                <div class="row">
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/steaksandwich.jpg" alt="Steak">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Steak</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> Try out a steak sandwich instead of that usual burger!
+                                                </p>
+                                                <p class="align-right">$5.50</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Left col -->
+                                    <!-- Middle col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/sausageandpeppers.jpeg" alt="Sausage and Peppers">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Sausage & Peppers</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> Enjoy sausage topped with thinly sliced peppers and onions on a bun.
+                                                </p>
+                                                <p class="align-right">$4.50</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Middle col -->
+                                </div>
+                                <!--^^row -->
+
+                            </div>
+                        </div>
+                        <!-- Body 2 ends -->
+
+                        <!-- Body 3 starts-->
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <!-- content row -->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 class="bg_red padbottom">Sides</h2>
+
+                                        <p>
+                                            Be sure to add a crispy and crunchy side to your meal.
+                                        </p>
+                                    </div>
+                                    <!--^^col -->
+                                </div>
+                                <!--^^row -->
+
+                                <!-- Left col -->
+                                <div class="row">
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/onionrings.JPG" alt="Onion Rings">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Onion Rings</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> Breaded and fried to be nice and crispy on the outside.
+                                                </p>
+                                                <p class="align-right">$3.00</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Left col -->
+                                    <!-- Middle col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/twisters.jpg" alt="Twisters">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>Twisters</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> A twist on the traditional french fry, these are served with just a little spice.
+                                                </p>
+                                                <p class="align-right">$2.75</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Middle col -->
+                                    <!-- Right col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <img class="img-responsive menu-pics center-block" src="images/food/frenchfries.JPG" alt="French Fries">
+                                            </div>
+                                            <div class="panel-body">
+                                                <h4>French Fries</h4>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <p> Our crunchy and slightly thicker fries are served warm from the fryer.
+                                                </p>
+                                                <p class="align-right">$2.50</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Right col -->
+                                </div>
+                                <!--^^row -->
+                            </div>
+                        </div>
+                        <!-- Body 3 ends -->
+
+                        <!-- Body 4 starts-->
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body">
+                                <!-- content row -->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 class="bg_red padbottom">Dinners</h2>
+
+                                        <p>
+                                            Complete with french fries, cole slaw, and a hot roll with butter.
+                                        </p>
+                                    </div>
+                                    <!--^^col -->
+                                </div>
+                                <!--^^row -->
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <p>
+                                            <br> Chicken Tenders $9.00
+                                            <br> Hamburger $9.00
+                                            <br> Grilled Chicken Breast $9.50
+                                            <br> Fish $9.00
+                                            <br> Clam $9.00
+                                            <br> Shrimp $10.00
+                                        </p>
+                                    </div>
+                                    <!--^^col -->
+                                    <div class="col-sm-8">
+                                        <!-- Carousel -->
+                                        <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+
+                                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                                        <!-- Opening Carousel with Captions -->
+
+                                        <div id="openingCarousel" class="carousel slide" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#openingCarousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#openingCarousel" data-slide-to="1"></li>
+                                            </ol>
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img class="img-responsive" src="images/food/clamdinner.jpg" alt="Clam Dinner">
+                                                </div>
+                                                <!-- ^^ item -->
+
+                                                <div class="item">
+                                                    <img class="img-responsive" src="images/food/fishfrydinner.jpg" alt="Fish Dinner">
+                                                    <!-- ^^ caption -->
+                                                </div>
+                                                <!-- ^^ item -->
+                                            </div>
+                                            <!-- ^^ Wrapper for slides -->
+
+                                            <!-- Left and right controls -->
+                                            <a class="left carousel-control" href="#openingCarousel" role="button" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="right carousel-control" href="#openingCarousel" role="button" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                        <!-- openingCarousel-2 -->
+                                        <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+
+                                        <!--^^ Carousel  -->
+                                    </div>
+                                    <!--^^col -->
+                                </div>
+                                <!--^^row -->
+                            </div>
+                        </div>
+                        <!-- Body 4 ends -->
+
+                        <!-- Body 5 starts-->
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div class="panel-body">
+                                <!-- content row -->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 class="bg_red padbottom">Take Home</h2>
+
+                                        <p class="bg_white padbottom">
+                                            Take the amazing taste of Jumpin' Jack's classics into the comfort of your own home. You may be missing out on the ski show and fireworks, but the food will be just as delicious.
+                                            <br>
+                                            <br> Jumpin' Jack's is also a great option for entertaining small parties. Don't worry about preparing that lunch or dinner, just stop by and pick up some Jumpin' Jack's to go!
+                                            <br>
+                                            <br> Pint of Clams $9.00
+                                            <br> Pint of Shrimp $17.00
+                                            <br> 1 Lb. of Fried Fish $10.00
+                                            <br> Pint of Cole Slaw $3.00
+                                        </p>
+                                    </div>
+                                    <!--^^col -->
+
+                                </div>
+                                <!--^^row -->
+                            </div>
+                        </div>
+                        <!-- Body 5 ends -->
+
+                        <!-- Body 6 starts-->
+                        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                            <div class="panel-body">
+                                <!-- content row -->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 class="bg_red padbottom">Beverages</h2>
+                                        <p>
+                                            Don't forget to order a cool drink to go along with your meal.
+                                        </p>
+                                        <p class="text-center">Fountain, bottled, and hot drinks:
+                                            <br>SM $1.25 &nbsp; &nbsp; MED $1.50 &nbsp; &nbsp; LG $2.00
+                                            <br> <img class="img-responsive center-block" src="images/food/beverages.png" alt="Beverages">
+                                        </p>
+                                    </div>
+                                    <!--^^col -->
+                                </div>
+                                <!--^^row -->
+                                <!-- Left col -->
+                                <div class="row">
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <h4>Soft Drinks</h4>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p> Pepsi
+                                                    <br> Diet Pepsi
+                                                    <br> Mountain Dew
+                                                    <br> Sierra Mist
+                                                    <br> Dr Pepper
+                                                    <br> Orange Crush
+                                                    <br> Root Beer
+                                                </p>
+                                            </div>
+                                            <div class="panel-footer">
+
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Left col -->
+                                    <!-- Middle col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <h4>Non-Carbonated</h4>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p> Lemonade
+                                                    <br> Fruit Punch
+                                                    <br> Gatorade
+                                                    <br> Iced Tea
+                                                    <br> Bottled Water
+                                                </p>
+                                            </div>
+                                            <div class="panel-footer">
+
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Middle col -->
+                                    <!-- Right col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <h4>Hot Drinks</h4>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p> Hot Tea
+                                                    <br> Hot Coffee
+                                                    <br> Hot Chocolate
+                                                </p>
+                                            </div>
+                                            <div class="panel-footer">
+
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Right col -->
+                                </div>
+                                <!--^^row -->
+                                <br>
+                                <br>
+                                <div class="row">
+                                    <!-- ROW 2 -->
+                                    <!-- Left col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <h4>Milkshakes</h4>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p> Vanilla
+                                                    <br> Chocolate
+                                                    <br> Strawberry
+                                                    <br> Pistachio
+                                                </p>
+                                            </div>
+                                            <div class="panel-footer">
+
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Left col -->
+                                    <!-- Middle col -->
+                                    <div class=" col-xs-12 col-sm-4">
+                                        <!-- panel -->
+                                        <div class="panel">
+                                            <div class="panel-heading">
+                                                <h4>Milkshake Pricing</h4>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p> MED $3.25
+                                                    <br> LG $3.50
+                                                    <br> Malted $0.50 extra
+                                                    <br> Additional milkshake flavors are available at the Twin Freeze building.
+                                                </p>
+                                            </div>
+                                            <div class="panel-footer">
+
+                                            </div>
+                                        </div>
+                                        <!-- ^^panel -->
+                                    </div>
+                                    <!-- ^^Middle col -->
+                                </div>
+                                <!--^^row -->
+                            </div>
+                        </div>
+                        <!-- Body 6 ends -->
+
+                    </div>
+                    <!-- Left Nav Content ends -->
+                </div>
+                <!--^^panel group -->
+            </div>
+            <!--^^accordian menu -->
+        </div>
+        <!--^^yellow section container -->
+
+    </section>
+
+
+    <!-- *************************************************************** -->
+
+
+    <!-- *************************************************************** -->
+    <!-- Footer Section -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <footer class="text-center footer-custom">
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="bg_blue">
+                    <br>March 30 to September 1
+                    <br> Open Daily: 11 am - 9:30 pm
+                    <br> Water Ski Show every Tuesday @ 6
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#topPage" title="To Top">
+                    <img class="img-responsive" src="images/JJLogoFooter.png" alt="Jumpin' Jack's Logo">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <p class="bg_blue">
+                    <br><a href="https://www.facebook.com/JumpinJacksDriveIn/?ref=br_rs" target="_blank"><i class="fa fa-facebook white"></i></a> <a class="white" href="https://www.facebook.com/JumpinJacksDriveIn/?ref=br_rs" target="_blank">Follow us on Facebook</a>
+
+                    <br><i class="fa fa-phone white fa-lg" aria-hidden="true"></i> 518-393-6101
+
+                    <br> <i class="fa fa-map-marker white fa-lg" aria-hidden="true"></i> 5 Schonowee Ave Scotia, NY 12302</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ^^ Footer Section -->
+
+
+
+
+    <!-- *************************************************************** -->
+
+
+
+    <!-- *************************************************************** -->
+    <!-- jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Responsive Extensions CSS -->
+    <script src="js/extensions.js"></script>
+    <!-- My Project JS -->
+    <!-- *************************************************************** -->
+
+</body>
+
+</html>

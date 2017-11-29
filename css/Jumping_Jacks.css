@@ -1,0 +1,377 @@
+/*
+    JumpinJacks.css
+
+    This is the page that will have all the CSS for our project site.
+*/
+
+
+/* ========================================================= */
+
+
+/*  IMPORTS for fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:bold');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+/* ========================================================= */
+
+
+/*  Page Level Style Rules */
+
+
+/* --------------------------------------------------------- */
+
+
+/* Text Style Rules */
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Maven Pro', sans-serif, bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #1A1C99 !important;
+}
+
+.h3Melissa {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #FFFFFF !important;
+}
+
+h4 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    line-height: 1.375em;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: #B6220F;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.375em;
+    font-weight: bold;
+    color: #000000;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #000000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.size {
+    font-size: 20px;
+}
+
+.align-right {
+    float: right;
+}
+
+.form-font {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.black {
+    color: #000000;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* glyphicon styles */
+
+.fa-caret-right {
+    color: #1A1C99;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* ========================================================= */
+
+
+/* container layout styles */
+
+.container-fluid {
+    padding: 50px 25px 50px 25px;
+}
+
+
+/* Contact Page Form & Modal */
+
+.input {
+    padding-bottom: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.form_pad {
+    padding: 25px;
+}
+
+.modal-dialog {
+    padding-top: 80px;
+}
+
+.pad {
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+
+/* Menu */
+
+.padbottom {
+    padding: 15px;
+}
+
+.pad_left {
+    padding-left: 20px;
+}
+
+
+/* ========================================================= */
+
+
+/* Navbar Style  */
+
+.btn-custom {
+    color: #FFFFFA !important;
+    background-color: #1A1C99 !important;
+    border-color: transparent;
+}
+
+.navbar {
+    margin-bottom: 0;
+    color: #1A1C99 !important;
+    background-color: #FFFFFF;
+    z-index: 9999;
+    border: 0;
+    font-size: 18px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #1A1C99 !important;
+    background-color: #FFFFFF !important;
+}
+
+.navbar-header .icon-bar {
+    background-color: #FFFFFA !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #FFFFFF !important;
+    background-color: #1A1C99 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Inverted Navbar Style  */
+
+@media (min-width: 768px) {
+    .inverted-navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .inverted-navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.inverted-navbar {
+    margin-bottom: 0;
+    color: #FFFFFF !important;
+    background-color: #1A1C99;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.inverted-navbar li a,
+.inverted-navbar {
+    color: #FFFFFF !important;
+    background-color: #1A1C99 !important;
+}
+
+.inverted-navbar-header .icon-bar {
+    background-color: #FFFFFF !important;
+}
+
+.inverted-navbar-nav li a:hover,
+.inverted-navbar-nav li.active a {
+    color: #FFFFFF !important;
+    background-color: #1A1C99 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* ========================================================= */
+
+
+/* Section Rules */
+
+
+/* --------------------------------------------------------- */
+
+
+/* background colors  */
+
+.bg_red {
+    color: #FFFFFF;
+    background: #B6220F;
+}
+
+.bg_blue {
+    color: #FFFFFF;
+    background: #1A1C99;
+}
+
+.bg_white {
+    background: #FFFFFF;
+}
+
+.bg_black {
+    background: #000000;
+}
+
+.bg_yellow {
+    background: #FFF2BA;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Panel Styles */
+
+.panel {
+    border: 0;
+}
+
+.panel-footer {
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.panel_red {
+    border-color: #B6220F;
+}
+
+.panel_red>.panel-heading {
+    color: #FFFFFF;
+    background: #B6220F;
+    border-color: #B6220F;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Image Styles*/
+
+
+/* Carousel Styles*/
+
+.fitCaro {
+    width: 1800 px;
+    height: 600 px;
+}
+
+
+/* Menu Images*/
+
+.menu-pics {
+    max-height: 150px;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+/* Footer */
+
+.footer-custom {
+    background-color: #1A1C99;
+    color: #FFFFFF;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.footer-glyphicon {
+    color: #FFFFFA;
+}
+
+
+/*-----------------------Google Maps-------------------- */
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
